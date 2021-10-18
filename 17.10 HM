@@ -14,7 +14,7 @@ signed main()
             word = false;
              }
          else
-            s[i] = tolower(ari[i]);
+            ari[i] = tolower(ari[i]);
         if(ari[i] == ' ')
             word = true;
     }
